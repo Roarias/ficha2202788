@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/dectective.ico" type="image/x-icon">
+  <title>Actividad 7 Personalzada</title>
+</head>
+<body>
+
+  <h1 id="inicio" >Alquiler de Vehiculos</h1>
+
+  <img src="./images/mazda.jpg" alt="Automovil" width="250" height="250">
+  <img src="./images/ninja.jpg" alt="Moto" width="250" height="250">
+  <img src="./images/camioneta.jpg" alt="Camioneta" width="350" height="250">
+  
+  <h2>Asesor Comercial</h2>
+  <form action="./actividad7_5.html">
+    <label for="username">Username:</label>
+    <input type="text" name="usename" id="username" required="required"><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required="required"><br>
+    <input type="submit" value="Submit">
+<hr />
+<p>
+    Por favor, seleccione el tipo de vehiculo que desea: <br>
+    <input type="radio" name="tipo" value="Automovil" checked="checked"> Automovil <br>
+    <input type="radio" name="tipo" value="Camioneta"> Camioneta <br>
+    <input type="radio" name="tipo" value="motocicleta"> motocicleta
+  </p>
+  <hr />
+  <p>
+    Por favor, seleccione tipo de pago: <br>
+    <input type="checkbox" name="sevice" value="Contado" checked="checked"> contado <br>
+    <input type="checkbox" name="sevice" value="Tarjeta"> Tarjeta <br>
+    <input type="checkbox" name="sevice" value="Credito"> Credito
+  </p>
+  <hr />
+  <p>Por favor, escoger placa par o impar</p>
+  <select name="device">
+    <option value="Par">Par</option>
+    <option value="Impar">Impar</option>
+    <option value="Sin Preferencia">Sin Preferencia</option>
+  </select>
+  <hr />
+  <p>
+    ¿Favor mencionar es que espacio utilizara el vehiculo?
+    (Puede seleccionar mas de una opcion manteniendo presionada la tecla control)
+  </p>
+  <select name="instruments" size="3" multiple="multiple">
+    <option value="Ciudad" selected="select">Ciudad</option>
+    <option value="Carretera">Carretera</option>
+    <option value="Lanura" selected="select">Llanura</option>
+    <option value="Vereda">Vereda</option>
+  </select>
+  <hr />
+  <p>Sube tu licencia de conducir:</p>
+      <input type="file" name="user-song">
+      <br>
+      <input type="submit" value="Upload">
+   <hr />
+   <p>Suscribete a nuestra lista de correo electronico:</p>
+    <input type="text" name="email">
+    <input type="submit" name="suscribete" value="Suscribete">
+    <hr />
+    <label>Nombre Completo: <input type="text" name="age"></label>
+    <br>
+    <input id="Femenino" type="radio" name="gender" value="f">
+    <label for="Femenino">Femenino</label>
+    <input id="Masculino" type="radio" name="gender" value="m">
+    <label for="Masculino">Masculino</label>
+    <hr />
+    <fieldset>
+        <legend>Datos de contacto</legend>
+        <label>Email <br><input type="text" name="email"></label><br>
+        <label>Telefono movil: <br><input type="text" name="mobile"></label><br>
+        <label>Telefono alterno: <br><input type="text" name="telephone"></label>
+      </fieldset>
+    <hr />
+    <p>¿Tiene comentarios sobre le servicio?</p>
+    <textarea name="commente" cols="20" rows="4">Ingrese sus comentarios...</textarea>
+    <hr />
+  <section class="container" id="ac15">
+    <a href="#inicio"></a>
+      <label for="username"> Fecha de salida:</label>
+      <input type="date" name="depart">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  
+</body>
+</html>

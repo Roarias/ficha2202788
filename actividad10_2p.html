@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/dectective.ico" type="image/x-icon">
+  <title>Multiple Video Sources</title>
+</head>
+<body>
+  <video poster="images/grupo-niche.jpg" width="400" height="320" preload="none" controls loop>
+    <source src="./video/Algo_que_se_quede.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <source src="./video/Algo_que_se_quede.webm" type='video/webm; codecs="av8, vorbis"'>
+  </video>
+
+  <p>Un video del Grupo Niche</p>
+  <p>
+    Grupo Niche es una orquesta de salsa colombiana conformada en 1980, reconocida por la crítica y el público por igual, como la más exitosa en América Latina durante las últimas cuatro décadas. Fue iniciado en la ciudad de Bogotá por Jairo Varela Martínez, oriundo del departamento de Chocó. Con el paso del tiempo y en busca de inspiración, decidieron viajar a la ciudad de Buenaventura en la costa del Pacífico colombiano, y finalmente, en 1983, se instalaron en Cali, en la región occidental del país, que se convertiría en su base de operaciones.)
+  </p>
+  <p>
+    <b>src:</b> Este atributo especifica la runa de acceso al video
+  </p>
+  <p>
+    <b>type:</b> Se debe ulitizar este atributo para decirle al navagador que formato es el video. De lo contrario, descargara parte del video para ver si puede reproducir el archivo (que tomara tiempo y ancho de banda)
+  </p>
+  <p>
+    <b>codecs:</b> El codec que uso para codificar el video se suministra dentro del atributo type. Tenga en cuenta el uso de comillas simples, asi como comillas dobles en el atributo de type, cuando se suministra
+  </p>
+</body>
+</html>
